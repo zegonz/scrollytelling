@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="script.js"></script>
+    <title>Scrollytelling - demo</title>
+
+</head>
+
+<body>
+    <main>
+
+        <section class="section-fake">section 1</section>
+
+        <section class="section-fake">section 2</section>
+
+        <section class="scroll-slide scroll-slide-desktop">
+            <div class="scroll-slide__container">
+                <div class="scroll-slide__wrapper">
+                    <div class="scroll-slide__item scroll-slide__item--active">
+                        <h2 class="scroll-slide__title">Un tableau de bord configuré
+                        </h2>
+                        <ul class="scroll-slide__content-list">
+                            <li class="scroll-slide__content-item">Un tableau de bord configuré pour vous et votre
+                                équipe
+                            </li>
+                            <li class="scroll-slide__content-item">Obtenez la vue d'ensemble et filtrez par vente, pays
+                                ou période
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="scroll-slide__item">
+                        <h2 class="scroll-slide__title">Mes performances
+                        </h2>
+                        <ul class="scroll-slide__content-list">
+                            <li class="scroll-slide__content-item">Obtenez une visualisation simple et efficace de vos
+                                objectifs, pour chaque personne ou unité commerciale.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="scroll-slide__item">
+                        <h2 class="scroll-slide__title">Mes clients et mon marché
+                        </h2>
+                        <ul class="scroll-slide__content-list">
+                            <li class="scroll-slide__content-item">Visualisez l'évolution de vos ventes mensuelles pour
+                                chaque client et comparez les à vos données de marché.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="scroll-slide-visual">
+                    <div class="scroll-slide-visual__base">
+                        <img src="img/sales-management-visual-slide1.png" alt="">
+                    </div>
+                    <div class="scroll-slide-visual__item scroll-slide-visual__item--2" style="transform: translateY(-200%);">
+                        <img src="img/sales-management-visual-slide2.png" alt="">
+                    </div>
+                    <div class="scroll-slide-visual__item scroll-slide-visual__item--3" style="transform: translateY(-200%);">
+                        <img src="img/sales-management-visual-slide3.png" alt="">
+                    </div>
+                </div>
+
+                <div class="slide-position">
+                    <div class="slide-position__bullet slide-position__bullet--active">
+                        <span class="slide-position__label slide-position__label--active">Tableau de bord configuré
+                        </span>
+                    </div>
+                    <div class="slide-position__bullet slide-position__bullet--active">
+                        <span class="slide-position__label">Performances
+                        </span>
+                    </div>
+                    <div class="slide-position__bullet slide-position__bullet--active">
+                        <span class="slide-position__label">Mes clients
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-fake">Section 3</section>
+
+    </main>
+</body>
+
+</html>
